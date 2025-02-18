@@ -1,6 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+	  <PackageId>NK.Logger</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Kaito Nishihara</Authors>
+	  <Description>This library enables logging to Azure Storage, allowing applications to efficiently store logs in Blob Storage, Table Storage, or Queue Storage for scalable and reliable logging.</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryUrl>https://github.com/Kaito-Nishihara/NK.Logger</RepositoryUrl>
+	  <PackageTags>Logger AzureStorage</PackageTags>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
